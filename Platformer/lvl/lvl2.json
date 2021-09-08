@@ -1,0 +1,36 @@
+{
+		"cases" :
+		{
+			"s" : {"texture": "stoneCenter", "traversable": false, "letal" : false},
+			"g" : {"texture": "grassMid", "traversable": false, "letal" : false},
+			"c" : {"texture": "castleMid", "traversable": false, "letal" : false},
+			"C" : {"texture": "castleCenter", "traversable": false, "letal" : false},
+			"L" : {"texture": "liquidLava", "traversable": false, "letal" : true}
+		},
+		"world":
+		{
+				"width": 65,
+				"height": 18,
+				"matrix":
+				[
+					"sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+					"    X                                        ssssssssssssssssssss",
+					"sssssssssssssssssssssssssssssssssssssssssss  ssssssssssssssssssss",
+					"                        s                    ssssssssssssssssssss",
+					"                       s    sssssssssssssssssssssssssssssssssssss",
+					"                            s                                    ",
+					"                            s                                    ",
+					"                         s  s               ss                   ",
+					"                   s  s     s @             ss    s              ",
+					"                  sLLLsLLLLLsgggggggggggggggss        s          ",
+					"             sssssssssssssssssssssssssssssssss            sss    ",
+					"ssssssss                                                        s",
+					"ssssssss                                                       ss",
+					"        s                                                ssssssss",
+					"                       s sssss     sssss   sss   ssss            ",
+					"             sss   s                                 s           ",
+					"          s                                             s        ",
+					"LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL"
+				]
+		}
+}

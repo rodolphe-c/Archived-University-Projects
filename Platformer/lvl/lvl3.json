@@ -1,0 +1,41 @@
+{
+		"cases" :
+		{
+			"s" : {"texture": "stoneCenter", "traversable": false, "letal" : false},
+			"g" : {"texture": "grassMid", "traversable": false, "letal" : false},
+			"c" : {"texture": "castleMid", "traversable": false, "letal" : false},
+			"C" : {"texture": "castleCenter", "traversable": false, "letal" : false},
+			"L" : {"texture": "liquidWater", "traversable": false, "letal" : true}
+		},
+		"world":
+		{
+				"width": 65,
+				"height": 23,
+				"matrix":
+				[
+					"sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+					"@                                                ssssssssssssssss",
+					"sssssssssssssssssssssssssssssssssssssss          ssssssssssssssss",
+					"                                       s     ssssssssssssssssssss",
+					"                                           ssssssssssssssssssssss",
+					"                            sssssssssssssssssssssssssssssssssssss",
+					"     ss ss  ss ss  ss  s                                         ",
+					"   s                                                             ",
+					"s                                                                ",
+					"sss                                                              ",
+					"   s   ssssss  ss  ssss  ss   sggggggggggggggggg                 ",
+					"LLLLLLLLLLLLLLLLLLLLLLLLLLLLsssssssssssssssssssss                ",
+					"LLLLLLLLLLLLLsssssssssssssssssssssssssssssssss    s              ",
+					"ssssssssssssss                                      ss   s       ",
+					"ssssssss                                                      sss",
+					"ssssssss                                                     ssss",
+					"sssssssss                                                   sssss",
+					"sssssssss          s   ssssssssssssssss    sss    s     sssssssss",
+					"ssssssssssssss                                                   ",
+					"ssssssssssssssss                                                 ",
+					"sssssssss        sss                                           X ",
+					"sssssssss              s   gggggggggggggggggggggggggggggggggggggg",
+					"sssssssssLLLLLLLLLLLLLLLLLLssssssssssssssssssssssssssssssssssssss"
+				]
+		}
+}
